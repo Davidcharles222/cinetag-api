@@ -1,0 +1,18 @@
+.container section { 
+    margin: 2em 20em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .container section{
+        margin: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container section{
+        margin: 2em 1em;
+    }
+}
